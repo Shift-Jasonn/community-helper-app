@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+<head>   
+       <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brand Board & Style Guide Template</title>
+  <title>Community LifeHacks</title>
+  <link rel="stylesheet" href="style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
-      <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Community Helper App</title>
   <meta name="description" content="Helping connect volunteers and neighbors through the Community Helper App.">
   <meta name="keywords" content="community, volunteering, helper app, local support, service">
   <meta name="author" content="Jason Thomas">
@@ -36,197 +34,79 @@
 </head>
 
 <body>
+  <!-- HEADER / NAVIGATION -->
+  <header class="site-header">
     <div class="container">
-        <header class="header">
-            <h1>Brand Board & Style Guide</h1>
-            <p class="subtitle">Project Template</p>
-        </header>
+      <a href="#home" class="brand">LifeHacks</a>
+      <button id="navToggle" aria-expanded="false" aria-controls="mainNav" class="nav-toggle">Menu</button>
 
-        <!-- Project Idea Section -->
-        <section class="section project-idea">
-            <h2>1. Project Idea</h2>
-
-            <div class="content-block">
-                <h3>App Description</h3>
-                <div class="content-area">
-                    <p class="placeholder-text">A community web app where users can share and discover life hacks, clever tips, and interesting finds. Submissions are added to a hidden list and can be revealed gradually, creating a fun way to explore helpful and creative ideas from other users</p>
-                </div>
-            </div>
-
-            <div class="content-block">
-                <h3>Target Audience</h3>
-                <div class="content-area">
-                    <p class="placeholder-text">Students, Young adults , DIY enthusiasts , Casual internet users</p>
-                </div>
-            </div>
-
-            <div class="content-block">
-                <h3>Value Proposition</h3>
-                <div class="content-area">
-                    <p class="placeholder-text">A simple platform to share and discover life hacks, tips, and cool finds from the community—effortless, fun, and useful for everyone.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Color Palette Section -->
-        <section class="section color-palette">
-            <h2>2. Color Palette</h2>
-            <p class="section-description">Choose 4–5 colors that work well together. Show hex codes and label their usage.</p>
-
-            <div class="color-grid">
-                <div class="color-card">
-                    <div class="color-preview1"></div>
-                    <div class="color-info">
-                        <div class="color-hex">#5DADE2</div>
-                        <div class="color-label">Primary/Buttons</div>
-                    </div>
-                </div>
-
-                <div class="color-card">
-                    <div class="color-preview2"></div>
-                    <div class="color-info">
-                        <div class="color-hex">#2ECC71</div>
-                        <div class="color-label">Accent/Success</div>
-                    </div>
-                </div>
-
-                <div class="color-card">
-                    <div class="color-preview3"></div>
-                    <div class="color-info">
-                        <div class="color-hex">#F39C12</div>
-                        <div class="color-label">Highlights/Warning</div>
-                    </div>
-                </div>
-
-                <div class="color-card">
-                    <div class="color-preview4"></div>
-                    <div class="color-info">
-                        <div class="color-hex">#34495E</div>
-                        <div class="color-label">Text/Headers</div>
-                    </div>
-                </div>
-
-                <div class="color-card">
-                    <div class="color-preview5"></div>
-                    <div class="color-info">
-                        <div class="color-hex">#203A43</div>
-                        <div class="color-label">Background/Light</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="tools-note">
-                <p><strong>Tip:</strong> Use tools like <a href="https://coolors.co" target="_blank">Coolors</a> or <a href="https://color.adobe.com" target="_blank">Adobe Color</a> to generate your palette.</p>
-            </div>
-        </section>
-
-        <!-- Font Style Guide Section -->
-        <section class="section font-guide">
-            <h2>3. Font Style Guide</h2>
-            <p class="section-description">Pick Google Fonts only from <a href="https://fonts.google.com" target="_blank">fonts.google.com</a>. Include at least two different fonts.</p>
-
-            <div class="font-examples">
-                <div class="font-block">
-                    <h3>Heading Font</h3>
-                    <div class="font-details">
-                        <div class="font-info">
-                            <strong>Font Name:</strong> Poppins
-                        </div>
-                        <div class="font-info">
-                            <strong>Weight:</strong> 700
-                        </div>
-                        <div class="font-info">
-                            <strong>Case:</strong> Regular
-                        </div>
-                    </div>
-                     <div class="font-details">
-                        <div class="font-info">
-                            <strong>Font Name:</strong> Open Sans
-                        </div>
-                        <div class="font-info">
-                            <strong>Weight:</strong> 700
-                        </div>
-                        <div class="font-info">
-                            <strong>Case:</strong> Regular
-                        </div>
-                    </div>
-                     <div class="font-details">
-                        <div class="font-info">
-                            <strong>Font Name:</strong> Montserrats
-                        </div>
-                        <div class="font-info">
-                            <strong>Weight:</strong> 700
-                        </div>
-                        <div class="font-info">
-                            <strong>Case:</strong> Regular
-                        </div>
-                    </div>
-                    <div class="font-sample heading-sample">
-                        <h1 class="sample-h1" style="font-family: Poppins;">H1 HEADING SAMPLE</h1>
-                        <h2 class="sample-h2" style="font-family: Open Sans;">H2 HEADING SAMPLE</h2>
-                        <h3 class="sample-h3" style="font-family: Montserrats;">H3 HEADING SAMPLE</h3>
-                    </div>
-                </div>
-
-                <div class="font-block">
-                    <h3>Body Font</h3>
-                    <div class="font-details">
-                        <div class="font-info">
-                            <strong>Font Name:</strong> Open Sans
-                        </div>
-                        <div class="font-info">
-                            <strong>Weight:</strong> 700
-                        </div>
-                        <div class="font-info">
-                            <strong>Case:</strong> Regular
-                        </div>
-                    </div>
-                    <div class="font-sample body-sample">
-                        <p>This is a sample paragraph text using the body font. It demonstrates how regular content will appear in your application. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
-
-                <div class="font-block">
-                    <h3>Navigation/Accent Font</h3>
-                    <div class="font-details">
-                        <div class="font-info">
-                            <strong>Font Name:</strong> Montserrats
-                        </div>
-                        <div class="font-info">
-                            <strong>Weight:</strong> 500
-                        </div>
-                        <div class="font-info">
-                            <strong>Case:</strong> Regular
-                        </div>
-                    </div>
-                    <div class="font-sample nav-sample">
-                        <nav class="sample-nav">
-                            <a href="#">Home</a>
-                            <a href="#">About</a>
-                            <a href="#">Services</a>
-                            <a href="#">Contact</a>
-                        </nav>
-                        <p class="accent-text">Accent text sample for buttons and highlights</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Instructions Section -->
-        <section class="section instructions-section">
-            <h2>Instructions</h2>
-            <p>Complete your brand board by coding in your design choices:</p>
-            <ul>
-                <li><strong>Project Idea:</strong> Replace the placeholder text with your project details</li>
-                <li><strong>Colors:</strong> Update the CSS to change background colors and hex codes</li>
-                <li><strong>Fonts:</strong> Link Google Fonts in the head and update font families in CSS</li>
-                <li><strong>Labels:</strong> Update the HTML text for color and font descriptions</li>
-            </ul>
-            <div class="code-reminder">
-                <p><strong>Remember:</strong> Use only <a href="https://fonts.google.com" target="_blank">Google Fonts</a> for your typography choices.</p>
-            </div>
-        </section>
+      <nav id="mainNav" class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-</body>
+  </header>
 
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- HOME SECTION -->
+    <section id="home" class="section home container" tabindex="0">
+      <h1>Community LifeHacks</h1>
+      <p class="lead">Share quick tips, find local help, and stay connected — mobile-first & accessible.</p>
+
+      <!-- Life Hack Input Form -->
+      <form id="hackForm" class="hack-form" aria-label="Add a life hack">
+        <label for="hackInput" class="visually-hidden">Your life hack</label>
+        <input id="hackInput" name="hack" type="text" placeholder="Share a quick tip (e.g., use binder clips to organize cables)" aria-required="true">
+        <button type="submit" id="addHackBtn">Add</button>
+      </form>
+
+      <h2>Saved Hacks</h2>
+      <ul id="hackList" class="hack-list" aria-live="polite"></ul>
+    </section>
+
+    <!-- RESOURCES SECTION -->
+    <section id="resources" class="section resources container" tabindex="0">
+      <h2>Local Resources</h2>
+   
+
+      <!-- Resources dynamically filled by script.js -->
+      <div id="resourcesList" class="resources-list" aria-live="polite"></div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section contact container" tabindex="0">
+      <h2>Contact & Feedback</h2>
+      <p>If you have suggestions or need help, reach out using the form below.</p>
+
+      <form id="contactForm" class="contact-form" aria-label="Contact form">
+        <label for="name" class="visually-hidden">Your name</label>
+        <input id="name" name="name" type="text" placeholder="Your name" required>
+
+        <label for="email" class="visually-hidden">Email address</label>
+        <input id="email" name="email" type="email" placeholder="you@school.edu" required>
+
+        <label for="message" class="visually-hidden">Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Message or feedback" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+
+      <div id="contactStatus" role="status" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Community LifeHacks — Built for school & neighborhood use.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js" defer></script>
+</body>
 </html>

@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Food Bank",
+    "description": "Free weekly groceries for local families.",
+    "link": "https://foodbank.org/"
+  },
+  {
+    "title": "Homework Help Center",
+    "description": "Tutoring and after-school academic support.",
+    "link": "https://tutors.com/"
+  },
+  {
+    "title": "Community Recycling",
+    "description": "Drop off old electronics or batteries for recycling.",
+    "link": "https://recyclingworksma.com/"
+  }
+]
